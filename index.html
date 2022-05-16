@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealhtyCarely</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="logo header__logo">
+        <a href="#" class="logo__link">
+          <svg class="logo__svg" width="175" height="35" aria-hidden="true">
+            <use xlink:href="img/svg/sprite_auto.svg#logo_HealhtyCarely"></use>
+          </svg>
+        </a>
+      </div>
+      <!-- Классы для управления
+      header__nav--opened - открыть меню, header__nav--closed - закрыть меню -->
+      <nav class="header__nav header__nav--closed ">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">
+              Home
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              Doctor
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              Services
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              Review
+            </a>
+          </li>
+        </ul>
+        <button class="header__toggle" aria-label="Кнопка открытия меню"></button>
+      </nav>
+      <div class="header__user user">
+        <a href="#" class="user__link user__link--login">
+          Sign In
+        </a>
+        <a href="#" class="user__link button">
+          Sign Up
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="medical-care">
+      <div class="container medical-care__container">
+        <div class="medical-care__content">
+          <h1 class="medical-care__title">
+            Medical Care Now
+            Simplified For <span class="medical-care__title medical-care__title--color">Everyone</span>
+          </h1>
+          <p class="medical-care__text main__text">
+            Health carely is a new way to get health insurance quotes. We offer tools similar to those
+            provided by insurance companies for free and prices are based on donations and not
+            restrictive health plan networks.
+          </p>
+          <a href="#" class="medical-care__link button">
+            Contact Us
+          </a>
+        </div>
+        <div class="medical-care__card card">
+          <div class="card__icon">
+            <picture>
+              <source type="image/avif" srcset="img/dr_shimanta_icon.avif, img/dr_shimanta_icon@2x.avif 2x">
+              <source type="image/webp" srcset="img/dr_shimanta_icon.webp, img/dr_shimanta_icon@2x.webp 2x">
+              <img src="img/dr_shimanta_icon.png" srcset="img/dr_shimanta_icon@2x.png 2x" alt="Иконка фото доктора" width="50" height="50">
+            </picture>
+          </div>
+          <div class="card__login">
+            <p class="card__name">
+              Dr. Shimanta
+            </p>
+            <span class="card__text">
+              Skin Specialist
+            </span>
+          </div>
+          <a href="#" class="card__button button">
+            Make Schedule
+          </a>
+        </div>
+        <div class="medical-care__img">
+          <picture>
+            <source type="image/avif" srcset="img/dr_shimanta.avif, img/dr_shimanta@2x.avif 2x">
+            <source type="image/webp" srcset="img/dr_shimanta.webp, img/dr_shimanta@2x.webp 2x">
+            <img class="" src="img/dr_shimanta.png" srcset="img/dr_shimanta@2x.png 2x" alt="фото доктора" width="460" height="590">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container advantages__container">
+        <span class="advantages__slogan main__slogan">
+          Fast Solutions
+        </span>
+        <h2 class="advantages__title main__title">
+          step by step to get your solutions
+        </h2>
+        <ul class="advantages__list">
+          <li class="advantages__item advantage">
+            <svg class="advantage__svg" width="40" height="40" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#Search"></use>
+            </svg>
+            <h3 class="advantage__title">
+              Check health complaints
+            </h3>
+            <p class="advantage__text">
+              Check the disease so you can
+              easily choose the right specialist
+            </p>
+          </li>
+          <li class="advantages__item advantage">
+            <svg class="advantage__svg" width="40" height="40" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#Choose"></use>
+            </svg>
+            <h3 class="advantage__title">
+              Choose doctor Specialist
+            </h3>
+            <p class="advantage__text">
+              Choose a specialist according
+              to your disease complaints
+            </p>
+          </li>
+          <li class="advantages__item advantage">
+            <svg class="advantage__svg" width="40" height="40" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#Calendar"></use>
+            </svg>
+            <h3 class="advantage__title">
+              Make a Schedule
+            </h3>
+            <p class="advantage__text">
+              Make a schedule with the doctor
+              concerned so you can start the
+              examination
+            </p>
+          </li>
+          <li class="advantages__item advantage">
+            <svg class="advantage__svg" width="40" height="40" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#Star"></use>
+            </svg>
+            <h3 class="advantage__title">
+              Get your Solutions
+            </h3>
+            <p class="advantage__text">
+              After conducting an examination
+              with a specialist we can help find
+              the right healing method
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="doctors">
+      <div class="container doctors__container">
+        <div class="doctors__content">
+          <span class="doctors__slogan main__slogan">
+            Find Doctor
+          </span>
+          <h2 class="doctors__title main__title">
+            Find the right doctor according
+            to your complaint
+          </h2>
+          <p class="doctors__tetx main__text">
+            HealthCare.ly is a free, health app that goes beyond matching you with doctors.
+            It actively helps you find the right doctor based on your medical and personal
+            needs and connects you with your HealthCarely community for ongoing
+            support throughout your journey to healthier living.
+          </p>
+          <div class="doctors__feature feature">
+            <svg class="feature__svg" width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#cheack"></use>
+            </svg>
+            <p class="feature__text">
+              100% free app designed to help you find the right doctor for you
+            </p>
+          </div>
+          <div class="doctors__feature feature">
+            <svg class="feature__svg" width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#cheack"></use>
+            </svg>
+            <p class="feature__text">
+              Available 900 doctors specialist
+            </p>
+          </div>
+
+          <a href="#" class="doctors__button button">
+            See the Doctors
+          </a>
+        </div>
+        <div class="doctors__card card card--doctors">
+          <h3 class="card__title">
+            Available Doctors
+          </h3>
+          <p class="card__subtitle">
+            Select Doctors
+          </p>
+          <div class="card__wrap">
+            <div class="card__icon">
+              <picture>
+                <source type="image/avif" srcset="img/dr_adina_icon.avif, img/dr_adina_icon@2x.avif 2x">
+                <source type="image/webp" srcset="img/dr_adina_icon.webp, img/dr_adina_icon@2x.webp 2x">
+                <img src="img/dr_adina_icon.png" srcset="img/dr_adina_icon@2x.png 2x" alt="Иконка фото доктора" width="50" height="50">
+              </picture>
+            </div>
+            <div class="card__login card__login--doctors">
+              <p class="card__name">
+                Dr. Adinda
+              </p>
+              <span class="card__text">
+                Eye Specialist
+              </span>
+            </div>
+          </div>
+          <div class="card__wrap">
+            <div class="card__icon">
+              <picture>
+                <source type="image/avif" srcset="img/dr_jackson_icon.avif, img/dr_jackson_icon@2x.avif 2x">
+                <source type="image/webp" srcset="img/dr_jackson_icon.webp, img/dr_jackson_icon@2x.webp 2x">
+                <img src="img/dr_jackson_icon.png" srcset="img/dr_jackson_icon@2x.png 2x" alt="Иконка фото доктора" width="50" height="50">
+              </picture>
+            </div>
+            <div class="card__login card__login--doctors">
+              <p class="card__name">
+                Dr. Jfckson
+              </p>
+              <span class="card__text">
+                Ear Specialist
+              </span>
+            </div>
+          </div>
+          <a href="#" class="card__button button">
+            Find Doctor
+          </a>
+        </div>
+        <div class="doctors__img">
+          <picture>
+            <source type="image/avif" data-srcset="img/female-doctor.avif, img/female-doctor@2x.avif 2x">
+            <source type="image/webp" data-srcset="img/female-doctor.webp, img/female-doctor@2x.webp 2x">
+            <img class="lazyload" data-src="img/female-doctor.png" data-srcset="img/female-doctor@2x.png 2x" alt="фото доктора" width="475" height="609">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="registration">
+      <div class="container registration__container">
+        <div class="registration__img">
+          <picture>
+            <source type="image/avif" data-srcset="img/doctors.avif, img/doctors@2x.avif 2x">
+                        <source type="image/webp" data-srcset="img/doctors.webp, img/doctors@2x.webp 2x">
+            <img class="lazyload" data-src="img/doctors.png" data-srcset="img/doctors@2x.png 2x" alt="фото доктора" width="626" height="401">
+          </picture>
+        </div>
+        <div class="registration__content">
+          <span class="registration__slogan main__slogan">
+            Make a Shedule
+          </span>
+          <h2 class="registration__title main__title">
+            Make a schedule in advance
+            with the available doctor
+          </h2>
+          <p class="registration__text main__text">
+            Healthcare is a very painful process, especially if you’re not taking care
+            of your health and having regular check-ups. HealhtyCarely makes it
+            easier for everyone to schedule a doctor’s appointment.
+          </p>
+          <div class="registration__feature feature">
+            <svg class="feature__svg" width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#cheack"></use>
+            </svg>
+            <p class="feature__text">
+              Make a schedule online is easy
+            </p>
+          </div>
+          <div class="registration__feature feature">
+            <svg class="feature__svg" width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#cheack"></use>
+            </svg>
+            <p class="feature__text">
+              Easy to connect with doctor
+            </p>
+          </div>
+          <a href="#" class="registration__button button">
+            Make Schedule Now!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="rating">
+      <div class="container rating__container">
+        <span class="rating__slogan main__slogan">
+          Our Rating
+        </span>
+        <h2 class="rating__title main__title">
+          We’re employee benefit at
+          7500+ hospital
+        </h2>
+        <ul class="rating__list">
+          <li class="rating__item">
+            <h3 class="rating__index">
+              900+
+            </h3>
+            <p class="rating__subtitle">
+              Verified Specialist
+            </p>
+            <span class="rating__text">
+              Highly Verified
+            </span>
+          </li>
+          <li class="rating__item">
+            <h3 class="rating__index">
+              45000+
+            </h3>
+            <p class="rating__subtitle">
+              Happy Costumers
+            </p>
+            <span class="rating__text">
+              Highly Performance
+            </span>
+          </li>
+          <li class="rating__item">
+            <h3 class="rating__index">
+              99,7%
+            </h3>
+            <p class="rating__subtitle">
+              Positive Feedback
+            </p>
+            <span class="rating__text">
+              Costumers Apporove
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slider">
+      <div class="container container__slider">
+        <h2 class="slider__title main__title">
+          Our patients feedback about us
+        </h2>
+        <span class="slider__slogan main__slogan">
+          their impression after using this application
+        </span>
+
+
+      <div class="slider__wrap swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper slider__wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide slider__slide">
+
+              <div class="slider__img">
+                <picture>
+                  <source type="image/avif" data-srcset="img/foto_slide.avif, img/foto_slide@2x.avif 2x">
+                                    <source type="image/webp" data-srcset="img/foto_slide.webp, img/foto_slide@2x.webp 2x">
+                  <img class="lazyload" data-src="img/foto_slide.png" data-srcset="img/foto_slide@2x.png 2x" alt="фото автора отзыва" width="433" height="372">
+                </picture>
+              </div>
+              <p class="slider__text">
+                “Healthycarely is an website and mobile app
+                for you to feel better or get medical help.
+                We offer you a 24/7 doctor service with no
+                appointment needed”
+              </p>
+              <div class="slider__author">
+                <span class="slider__patient">
+                  Naufal Hidayat
+                </span>
+                <span class="slider__profession">
+                  Student at Telkom University
+                </span>
+              </div>
+            </div>
+            <div class="swiper-slide slider__slide">
+              <div class="slider__img">
+                <picture>
+                  <source type="image/avif" data-srcset="img/foto_slide.avif, img/foto_slide@2x.avif 2x">
+                                    <source type="image/webp" data-srcset="img/foto_slide.webp, img/foto_slide@2x.webp 2x">
+                  <img class="lazyload" data-src="img/foto_slide.png" data-srcset="img/foto_slide@2x.png 2x" alt="фото автора отзыва" width="433" height="372">
+                </picture>
+              </div>
+              <p class="slider__text">
+                We offer you a 24/7 doctor service with no
+                appointment needed”
+              </p>
+              <div class="slider__author">
+                <span class="slider__patient">
+                  sem
+                </span>
+                <span class="slider__profession">
+                  Student
+                </span>
+              </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination slider__pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev slider__button slider__button--prev"></div>
+          <div class="swiper-button-next slider__button slider__button--next"></div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__content">
+        <div class="logo footer__logo">
+          <a href="#" class="logo__link">
+            <svg class="logo__svg" width="175" height="35" aria-hidden="true">
+              <use xlink:href="img/svg/sprite_auto.svg#logo_HealhtyCarely"></use>
+            </svg>
+          </a>
+        </div>
+        <p class="footer__text">
+
+          This free App provides a solution to your health needs by offering
+          you a one-stop access to complete information about various
+          medical checkups. This App carries simple tips and advice to
+          help you maintain a healthy lifestyle.
+        </p>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__wrap">
+          <h3 class="footer__title">
+            Overview
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Checking Health
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Find Docter
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Make a Schedule
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__wrap">
+          <h3 class="footer__title">
+            Company
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Home
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                About
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Services
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__wrap">
+          <h3 class="footer__title">
+            Explore
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Terms & Conds
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Privacy Police
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Cookies
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__wrap">
+          <h3 class="footer__title">
+            Social Media
+          </h3>
+          <ul class="footer__list footer__list--social">
+            <li class="footer__item footer__item--social">
+              <a href="#" class="footer__link footer__link--social">
+                <svg class="footer__svg" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="img/svg/sprite_auto.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item footer__item--social">
+              <a href="#" class="footer__link footer__link--social">
+                <svg class="footer__svg" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="img/svg/sprite_auto.svg#insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item footer__item--social">
+              <a href="#" class="footer__link footer__link--social">
+                <svg class="footer__svg" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="img/svg/sprite_auto.svg#twiter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
